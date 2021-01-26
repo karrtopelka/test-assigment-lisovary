@@ -61,7 +61,7 @@ state-у, я б простими арифметичними діями, помі
 
 #### Task1
 
-![Task1](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task1.png?raw=true)
+![Task1](https://github.com/karrtopelka/test-assigment-lisovary/blob/master/src/assets/screens/task1.png?raw=true)
 
 #### Task2
 
