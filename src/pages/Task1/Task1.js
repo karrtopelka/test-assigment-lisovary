@@ -77,7 +77,12 @@ const Task1 = () => {
               <FormControlLabel value="+" control={<Radio />} label="+" />
             </RadioGroup>
           </div>
-          {isError || <pre>{builder()}</pre>}
+          <div style={{ display: "flex", gap: 10 }}>
+            {isError ||
+              [...Array(parseInt(rows))].map((e, i) => (
+                <pre key={i}>{builder()}</pre>
+              ))}
+          </div>
         </div>
       </Fade>
     </div>
