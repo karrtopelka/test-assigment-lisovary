@@ -1,6 +1,6 @@
 # Тестове завдання на позицію Junior Software Developer (Інтерна) в компанію Lisovary
 
-Відео роботи [клац](https://youtu.be/3qjt2OibPrs).
+Відео роботи [клац](https://youtu.be/9Iq3QOrAD0A).
 
 ## На чому я писав
 
