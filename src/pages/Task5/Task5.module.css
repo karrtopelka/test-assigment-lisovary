@@ -1,0 +1,26 @@
+.task5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  padding: 15px;
+}
+
+.realisation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.realisation > div:first-child {
+  display: flex;
+}
+
+.realisation > div:first-child > div {
+  margin: 15px;
+}

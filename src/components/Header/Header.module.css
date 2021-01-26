@@ -1,0 +1,47 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-top: 15px;
+  flex-wrap: wrap;
+  transition: all 0.2s ease;
+  gap: 15px;
+}
+
+.logo > a {
+  font-weight: bold;
+  font-size: 18px !important;
+}
+
+.links,
+.right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.links > a,
+.right > a,
+.logo > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #33c9dc;
+}
+
+.active {
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #ffc400;
+}
