@@ -79,6 +79,7 @@ const Task1 = () => {
           </div>
           <div style={{ display: "flex", gap: 10 }}>
             {isError ||
+              !"0123456789".includes(rows) ||
               [...Array(parseInt(rows))].map((e, i) => (
                 <pre key={i}>{builder()}</pre>
               ))}
