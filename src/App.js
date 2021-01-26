@@ -1,5 +1,10 @@
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
 import Task1 from "./pages/Task1/Task1";
@@ -33,6 +38,7 @@ const App = () => {
           <Route path="/task5">
             <Task5 />
           </Route>
+          <Route path="*" render={() => <Redirect to="/" />} />
         </Switch>
         <Footer />
       </div>
