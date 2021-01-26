@@ -52,3 +52,29 @@
 
 Не дуже зрозумів суть завдання, але я залишив свій коментар, що якби не було
 state-у, я б простими арифметичними діями, поміняв місцями дві змінні.
+
+### Screens
+
+#### Home
+
+![Home](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/home_page.png)
+
+#### Task1
+
+![Task1](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task1.png)
+
+#### Task2
+
+![Task2](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task2.png)
+
+#### Task3
+
+![Task3](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task3.png)
+
+#### Task4
+
+![Task4](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task4.png)
+
+#### Task5
+
+![Task5](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task5.png)
