@@ -65,16 +65,16 @@ state-у, я б простими арифметичними діями, помі
 
 #### Task2
 
-![Task2](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task2.png?raw=true)
+![Task2](https://github.com/karrtopelka/test-assigment-lisovary/blob/master/src/assets/screens/task2.png?raw=true)
 
 #### Task3
 
-![Task3](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task3.png?raw=true)
+![Task3](https://github.com/karrtopelka/test-assigment-lisovary/blob/master/src/assets/screens/task3.png?raw=true)
 
 #### Task4
 
-![Task4](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task4.png?raw=true)
+![Task4](https://github.com/karrtopelka/test-assigment-lisovary/blob/master/src/assets/screens/task4.png?raw=true)
 
 #### Task5
 
-![Task5](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task5.png?raw=true)
+![Task5](https://github.com/karrtopelka/test-assigment-lisovary/blob/master/src/assets/screens/task5.png?raw=true)
