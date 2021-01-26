@@ -8,7 +8,7 @@ const Home = () => {
   var buttons = [];
   for (let i = 1; i <= 5; i++) {
     buttons.push(
-      <Link to={`/task${i}`}>
+      <Link to={`/task${i}`} key={i}>
         <Button variant="outlined" color="primary" size="large">
           Завдання {i}
         </Button>
