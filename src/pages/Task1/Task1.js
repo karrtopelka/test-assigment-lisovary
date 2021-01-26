@@ -40,22 +40,16 @@ const Task1 = () => {
   };
 
   return (
-    <div className={classes.task1}>
+    <div className="task">
       <Fade opposite duration={750}>
         <TaskDescription
           name="1. Трикутники (4 бали)"
-          description="Потрібно вивести в консоль від 1-го до 6-ти рівнобедрених трикутників, в
-          залежності від того яке число введе користувач. Наприклад, якщо на вхід в
-          програму буде відправлено число 3, то необхідно надрукувати 3 трикутника,
-          якщо користувач введе 6, то надрукувати 6-ть трикутників. Трикутники
-          потрібно виводити не в стовпчик, а в рядок. 
-          "
+          description="Потрібно вивести в консоль від 1-го до 6-ти рівнобедрених трикутників, в залежності від того яке число введе користувач. Наприклад, якщо на вхід в програму буде відправлено число 3, то необхідно надрукувати 3 трикутника, якщо користувач введе 6, то надрукувати 6-ть трикутників. Трикутники потрібно виводити не в стовпчик, а в рядок."
         />
         <h2>Реалізація:</h2>
-        <div className={classes.realisation}>
+        <div className="realisation">
           <div>
             <CssTextField
-              style={{ width: 500 }}
               error={isError}
               label={`Введіть кількість рівнів${
                 isError ? ". Помилка! Введіть від 1 до 6" : ""
@@ -77,11 +71,20 @@ const Task1 = () => {
               <FormControlLabel value="+" control={<Radio />} label="+" />
             </RadioGroup>
           </div>
-          <div style={{ display: "flex", gap: 10 }}>
+          <div
+            style={{
+              display: "flex",
+              gap: 10,
+              flexWrap: "wrap",
+              justifyContent: "center",
+            }}
+          >
             {isError ||
               !"0123456789".includes(rows) ||
               [...Array(parseInt(rows))].map((e, i) => (
-                <pre key={i}>{builder()}</pre>
+                <pre className={classes.preText} key={i}>
+                  {builder()}
+                </pre>
               ))}
           </div>
         </div>

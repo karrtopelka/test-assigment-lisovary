@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import classes from "./Task5.module.css";
 import Fade from "react-reveal/Fade";
 import TaskDescription from "../../components/TaskDescription/TaskDescription";
 import CssTextField from "../../components/CssTextField/CssTextField";
@@ -26,7 +25,7 @@ const Task5 = () => {
   };
 
   return (
-    <div className={classes.task5}>
+    <div className="task">
       <Fade opposite duration={750}>
         <TaskDescription
           name="5. Поміняти місцями без спеціальних операторів (3 бали) "
@@ -35,8 +34,8 @@ const Task5 = () => {
             функцій"
         />
         <h2>Реалізація:</h2>
-        <div className={classes.realisation}>
-          <div>
+        <div className="realisation">
+          <div className="inputs">
             <CssTextField
               label="Введіть X"
               value={x}

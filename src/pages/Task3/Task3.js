@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import TaskDescription from "../../components/TaskDescription/TaskDescription";
-import classes from "./Task3.module.css";
 import Fade from "react-reveal/Fade";
 import { DatePicker, MuiPickersUtilsProvider } from "@material-ui/pickers";
 import DateFnsUtils from "@date-io/date-fns";
@@ -26,15 +25,19 @@ const Task3 = () => {
   };
 
   return (
-    <div className={classes.task3}>
+    <div className="task">
       <Fade opposite duration={750}>
         <TaskDescription
           name="3. День тижня в році (3 бали)"
           description="Написати програму, яка буде обчислювати день тижня за вказаною датою. "
         />
         <h2>Реалізація:</h2>
-        <div className={classes.realisation}>
-          <MuiPickersUtilsProvider utils={DateFnsUtils} locale={ukLocale}>
+        <div className="realisation">
+          <MuiPickersUtilsProvider
+            utils={DateFnsUtils}
+            locale={ukLocale}
+            className="inputs"
+          >
             <DatePicker
               value={selectedDate}
               onChange={handleDateChange}

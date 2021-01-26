@@ -4,12 +4,26 @@ import classes from "./Header.module.css";
 import TelegramIcon from "@material-ui/icons/Telegram";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import { useEffect } from "react";
+import { useState } from "react";
 
 const Header = () => {
   const loc = useLocation().pathname;
+  const [show, handleShow] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        handleShow(true);
+      } else handleShow(false);
+    });
+    return () => {
+      window.removeEventListener("scroll", () => {});
+    };
+  }, []);
 
   return (
-    <div className={classes.header}>
+    <div className={`${classes.header} ${show && classes.header_black}`}>
       <div className={classes.logo}>
         <Link to="/">
           <p>Karrtopelka</p>

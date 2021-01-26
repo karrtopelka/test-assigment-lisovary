@@ -1,6 +1,5 @@
 import React from "react";
 import TaskDescription from "../../components/TaskDescription/TaskDescription";
-import classes from "./Task2.module.css";
 import Fade from "react-reveal/Fade";
 import CssTextField from "../../components/CssTextField/CssTextField";
 import { useState } from "react";
@@ -22,7 +21,7 @@ const Task2 = () => {
   };
 
   return (
-    <div className={classes.task2}>
+    <div className="task">
       <Fade opposite duration={750}>
         <TaskDescription
           name="2. НСД для 4х чисел (3 бали) "
@@ -30,8 +29,8 @@ const Task2 = () => {
             яке дані числа діляться без залишку. Наприклад НСД для двох чисел 15 і 10 - 5"
         />
         <h2>Реалізація:</h2>
-        <div className={classes.realisation}>
-          <div>
+        <div className="realisation">
+          <div className="inputs">
             <CssTextField
               label="Введіть перше число"
               value={firstNumber}

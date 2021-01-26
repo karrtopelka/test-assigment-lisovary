@@ -1,5 +1,4 @@
 import React from "react";
-import classes from "./Task4.module.css";
 import Fade from "react-reveal/Fade";
 import TaskDescription from "../../components/TaskDescription/TaskDescription";
 import CssTextField from "../../components/CssTextField/CssTextField";
@@ -70,15 +69,15 @@ const Task4 = () => {
   };
 
   return (
-    <div className={classes.task4}>
+    <div className="task">
       <Fade opposite duration={750}>
         <TaskDescription
           name="4. Розпарсити математичний вираз (6 або 10 балів)"
           description="Потрібно обчислити вираз в якому є дужки (круглі) і знаки додавання, віднімання."
         />
         <h2>Реалізація:</h2>
-        <div className={classes.realisation}>
-          <div>
+        <div className="realisation">
+          <div className="inputs">
             <CssTextField
               label="Введіть приклад"
               value={ex}
