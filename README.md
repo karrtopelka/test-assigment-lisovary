@@ -2,6 +2,8 @@
 
 Відео роботи [клац](https://youtu.be/9Iq3QOrAD0A).
 
+SPA з хостингом на firebase [клац](https://test-assigment-lisovary.web.app/)
+
 ## На чому я писав
 
 У цьому проєкті я використав React, з такими бібліотеками як:
