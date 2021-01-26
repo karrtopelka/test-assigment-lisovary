@@ -57,24 +57,24 @@ state-у, я б простими арифметичними діями, помі
 
 #### Home
 
-![Home](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/home_page.png)
+![Home](https://github.com/karrtopelka/test-assigment-lisovary/blob/master/src/assets/screens/home_page.png?raw=true)
 
 #### Task1
 
-![Task1](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task1.png)
+![Task1](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task1.png?raw=true)
 
 #### Task2
 
-![Task2](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task2.png)
+![Task2](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task2.png?raw=true)
 
 #### Task3
 
-![Task3](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task3.png)
+![Task3](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task3.png?raw=true)
 
 #### Task4
 
-![Task4](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task4.png)
+![Task4](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task4.png?raw=true)
 
 #### Task5
 
-![Task5](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task5.png)
+![Task5](https://github.com/karrtopelka/test-assigment-lisovary/tree/master/src/assets/screens/task5.png?raw=true)
