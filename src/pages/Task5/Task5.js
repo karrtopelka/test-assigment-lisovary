@@ -9,17 +9,20 @@ const Task5 = () => {
   const [x, setX] = useState(0);
   const [y, setY] = useState(0);
 
-  const handleChange = () => {
+  const handleChange = (e) => {
+    e.preventDefault();
     // я міг просто Написати
     // setX(y)
     // setY(x)
 
     // але уявимо що нема state
-    let a = x;
-    let b = y;
+    let a = parseInt(x);
+    let b = parseInt(y);
+
     a = a + b;
     b = a - b;
     a = a - b;
+
     setX(a);
     setY(b);
   };
@@ -38,15 +41,27 @@ const Task5 = () => {
           <div className="inputs">
             <CssTextField
               label="Введіть X"
-              value={x}
-              onChange={(e) => setX(parseInt(e.target.value))}
+              value={parseInt(x)}
+              onChange={(e) =>
+                setX(
+                  e.target.value.replace(/\D/, "") === ""
+                    ? "0"
+                    : e.target.value.replace(/\D/, "")
+                )
+              }
               variant="outlined"
               color="primary"
             />
             <CssTextField
               label="Введіть Y"
-              value={y}
-              onChange={(e) => setY(parseInt(e.target.value))}
+              value={parseInt(y)}
+              onChange={(e) =>
+                setY(
+                  e.target.value.replace(/\D/, "") === ""
+                    ? "0"
+                    : e.target.value.replace(/\D/, "")
+                )
+              }
               variant="outlined"
               color="primary"
             />
@@ -58,7 +73,7 @@ const Task5 = () => {
           <Button
             variant="contained"
             color="primary"
-            onClick={() => handleChange()}
+            onClick={(e) => handleChange(e)}
           >
             Поміняти місцями змінні
           </Button>

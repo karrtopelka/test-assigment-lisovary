@@ -23,29 +23,46 @@ const Header = () => {
   }, []);
 
   return (
-    <div className={`${classes.header} ${show && classes.header_black}`}>
+    <div
+      className={`${classes.header} ${show ? classes.header_black : undefined}`}
+    >
       <div className={classes.logo}>
         <Link to="/">
           <p>Karrtopelka</p>
         </Link>
       </div>
       <div className={classes.links}>
-        <Link className={loc === "/" && classes.active} to="/">
+        <Link className={loc === "/" ? classes.active : undefined} to="/">
           головна
         </Link>
-        <Link className={loc === "/task1" && classes.active} to="/task1">
+        <Link
+          className={loc === "/task1" ? classes.active : undefined}
+          to="/task1"
+        >
           task 1
         </Link>
-        <Link className={loc === "/task2" && classes.active} to="/task2">
+        <Link
+          className={loc === "/task2" ? classes.active : undefined}
+          to="/task2"
+        >
           task 2
         </Link>
-        <Link className={loc === "/task3" && classes.active} to="/task3">
+        <Link
+          className={loc === "/task3" ? classes.active : undefined}
+          to="/task3"
+        >
           task 3
         </Link>
-        <Link className={loc === "/task4" && classes.active} to="/task4">
+        <Link
+          className={loc === "/task4" ? classes.active : undefined}
+          to="/task4"
+        >
           task 4
         </Link>
-        <Link className={loc === "/task5" && classes.active} to="/task5">
+        <Link
+          className={loc === "/task5" ? classes.active : undefined}
+          to="/task5"
+        >
           task 5
         </Link>
       </div>

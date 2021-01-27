@@ -20,10 +20,23 @@ const Task4 = () => {
     };
     let stack = [];
     let postfixList = [];
-    let tokenList = exp.split(" ");
-
+    let temp = exp.replace(/ /g, "");
+    let tokenList = [];
+    let n = "";
+    for (let i = 0; i < temp.length; i++) {
+      if (Number(element)) {
+        n += element;
+      } else {
+        tokenList.push(n);
+        tokenList.push(element);
+        n = "";
+      }
+    }
+    tokenList.push(n);
+    tokenList = tokenList.filter((a) => a !== "");
+    \;
     tokenList.forEach((token) => {
-      if ("0123456789".includes(token)) {
+      if (Number(token)) {
         postfixList.push(token);
       } else if (token === "(") {
         stack.push(token);
@@ -60,7 +73,6 @@ const Task4 = () => {
         stack.push(parseInt(item));
       }
     });
-    console.log(stack);
     if (isNaN(stack[stack.length - 1])) {
       return "Введіть приклад правильно";
     } else {
