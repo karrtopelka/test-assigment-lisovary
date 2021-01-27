@@ -24,6 +24,7 @@ const Task4 = () => {
     let tokenList = [];
     let n = "";
     for (let i = 0; i < temp.length; i++) {
+      const element = temp[i];
       if (Number(element)) {
         n += element;
       } else {
@@ -34,7 +35,6 @@ const Task4 = () => {
     }
     tokenList.push(n);
     tokenList = tokenList.filter((a) => a !== "");
-    \;
     tokenList.forEach((token) => {
       if (Number(token)) {
         postfixList.push(token);
