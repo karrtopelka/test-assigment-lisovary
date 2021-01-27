@@ -71,18 +71,25 @@ const Header = () => {
           rel="noreferrer"
           target="_blank"
           href="https://instagram.com/karrtopelka"
+          aria-label="Instagram"
         >
-          <InstagramIcon />
+          <InstagramIcon name="instagram" />
         </a>
-        <a rel="noreferrer" target="_blank" href="https://t.me/karrtopelka">
-          <TelegramIcon />
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://t.me/karrtopelka"
+          aria-label="Telegram"
+        >
+          <TelegramIcon name="telegram" />
         </a>
         <a
           rel="noreferrer"
           target="_blank"
           href="https://www.linkedin.com/in/karrtopelka/"
+          aria-label="LinkedIn"
         >
-          <LinkedInIcon />
+          <LinkedInIcon name="linkedin" />
         </a>
       </div>
     </div>
