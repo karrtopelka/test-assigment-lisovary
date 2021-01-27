@@ -84,3 +84,17 @@ state-у, я б простими арифметичними діями, помі
 #### Task5
 
 ![Task5](https://github.com/karrtopelka/test-assigment-lisovary/blob/master/src/assets/screens/task5.png?raw=true)
+
+### Some stats
+
+#### Pagespeed Desktop
+
+![PSDesktop](https://github.com/karrtopelka/test-assigment-lisovary/blob/master/src/assets/screens/pagespeed_desktop.jpg?raw=true)
+
+#### Pagespeed Mobile
+
+![PSMobile](https://github.com/karrtopelka/test-assigment-lisovary/blob/master/src/assets/screens/pagespeed_mobile.jpg?raw=true)
+
+#### Lighthouse
+
+![Lighthouse](https://github.com/karrtopelka/test-assigment-lisovary/blob/master/src/assets/screens/lighthouse.jpg?raw=true)
